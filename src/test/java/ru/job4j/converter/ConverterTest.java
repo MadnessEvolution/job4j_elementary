@@ -8,7 +8,7 @@ class ConverterTest {
 
     @Test
     void whenConvert270RblThen3Euro() {
-        float input = 270;
+        float input = 285;
         float expected = 3;
         float output = Converter.rubleToEuro(input);
         float value = 0.0001f;
@@ -26,7 +26,7 @@ class ConverterTest {
 
     @Test
     void whenConvert180RblThen2Euro() {
-        float input = 180;
+        float input = 190;
         float expected = 2;
         float output = Converter.rubleToEuro(input);
         float value = 0.0001f;
