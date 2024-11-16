@@ -14,7 +14,7 @@ public class MathCalculator {
                 + divide(first, second);
     }
 
-    public static double sumAndMultiplyAndSubtractAndDivide(double first, double second) {
+    public static double sumAndMultiplyAndSubtractAndDivide1(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + subtract(first, second)
@@ -24,6 +24,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + subtractAndDivide(10, 20));
-        System.out.println("Результат расчета равен: " + sumAndMultiplyAndSubtractAndDivide(10, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiplyAndSubtractAndDivide1(10, 20));
     }
 }
