@@ -3,15 +3,15 @@ package ru.job4j.calculator;
 public class TemperatureFit {
 
     public static double idealTemperatureForFruits(int temperature) {
-        return temperature - 12.0;
+        return temperature - 2.0;
     }
 
     public static double idealTemperatureForMeat(int temperature) {
-        return temperature - 15.0;
+        return temperature - 5.0;
     }
 
     public static void main(String[] args) {
-        int temperature = 20; // Example room temperature
+        int temperature = 10;
         double fruitsTemp = TemperatureFit.idealTemperatureForFruits(temperature);
         double meatTemp = TemperatureFit.idealTemperatureForMeat(temperature);
         System.out.println("Ideal temperature for fruits is " + fruitsTemp + "°C");
