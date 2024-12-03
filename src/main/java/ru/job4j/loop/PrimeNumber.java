@@ -14,5 +14,9 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
         System.out.println(PrimeNumber.calc(5));
+        System.out.println(PrimeNumber.calc(11));
+        System.out.println(PrimeNumber.calc(2));
+        System.out.println(PrimeNumber.calc(25));
+        System.out.println(PrimeNumber.calc(49));
     }
 }
