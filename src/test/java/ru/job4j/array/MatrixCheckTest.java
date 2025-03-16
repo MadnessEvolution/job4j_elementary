@@ -28,6 +28,7 @@ public class MatrixCheckTest {
         assertThat(result).isFalse();
     }
 
+
     @Test
     public void whenHasMonoVertical() {
         char[][] input = {
